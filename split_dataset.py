@@ -3,7 +3,7 @@ import random
 import shutil
 
 # Set the paths for your dataset
-dataset_dir = 'bbox_images'
+dataset_dir = 'dataset'
 train_dir = 'train'
 valid_dir = 'valid'
 test_dir = 'test'
