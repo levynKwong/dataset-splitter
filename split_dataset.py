@@ -24,9 +24,9 @@ random.shuffle(jpg_files)
 
 # Calculate the split indices
 total_files = len(jpg_files)
-test_count = int(total_files * 0.1)
-valid_count = int(total_files * 0.2)
-train_count = total_files - test_count - valid_count
+test_count = int(total_files * 0.1) # 10%
+valid_count = int(total_files * 0.2) # 20%
+train_count = total_files - test_count - valid_count # 70%
 
 # Split the files
 test_files = jpg_files[:test_count]
